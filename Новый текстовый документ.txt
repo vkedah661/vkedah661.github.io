@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Клан Ойлист</title>
+<style>
+body {}
+</style>
+</head>
+<body>
+Добро пожаловать на сайт клана "Ойлист"
+</html>
