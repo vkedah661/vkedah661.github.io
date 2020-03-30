@@ -23,11 +23,21 @@ right: 1em;
 text-align: right;
 }
 </style>
+    <script type="text/javascript">
+i=0;
+dt=new Array("#ff0000", "#00ff00", "#0000ff", "#ffffff",);
+function cl()
+{document.getElementById("web").style.color=dt[i++];
+if (i>dt.length) i=0;
+setTimeout("cl()",1000);}
+</script>
+<script type="text/javascript">
+</script>
 </head>
 <body>
 <h1>Добро пожаловать на сайт клана "Ойлист"</h1>
 </body>
-<p>Клан находится в игре "PUBG MOBILE".<br>На данный момент клан имеет 6 ур.<br>
+<p id='web'>Клан находится в игре "PUBG MOBILE".<br>На данный момент клан имеет 6 ур.<br>
 Требования для того , чтобы вступить в клан:<br> 25ур. , ранг золото V.<br>
 Актив!
 <br>
