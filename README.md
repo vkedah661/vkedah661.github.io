@@ -1,6 +1,8 @@
 
 # vkedah661.github.io
-<a href="https://vkedah661.github.io/head.html">Сайт клана в PUBG MOBILE</a>
+<ul>
+<li><a href="https://vkedah661.github.io/head.html">Сайт клана в PUBG MOBILE</a></li>
 <br>
-<a href="https://vkedah661.github.io/home.html">Сайт клана в PUBG MOBILE LITE </a>
+<li><a href="https://vkedah661.github.io/home.html">Сайт клана в PUBG MOBILE LITE </a></li>
+</ul> 
  <link rel="shortcut icon" href="vkedah661.github.io/img/Новая папка/favicon-16x16.png">
