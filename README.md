@@ -1,4 +1,6 @@
-
+<head>
+<title>Главная</title>
+ </head>
 # vkedah661.github.io
 <ul>
 <li><a href="https://vkedah661.github.io/head.html">Сайт клана в PUBG MOBILE</a></li>
