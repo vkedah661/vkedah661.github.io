@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>countdown<title>
+<style>
+  body {
+  -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    }
+  p{ font-size: 20px
+    }
+</style>
+</head>
+
+</html>
