@@ -9,6 +9,6 @@
  <br>
  <li><a href="https://vkedah661.github.io/discord">Discord клана</a></li>
   <br>
- <li><a href="https://vkedah661.github.io/4svteam.html"4SV TEAM </a></li>
+ <li><a href="https://vkedah661.github.io/4svteam.html"</a>4SV TEAM</li>
 </ul> 
  <link rel="shortcut icon" href="vkedah661.github.io/img/Новая папка/favicon-16x16.png">
