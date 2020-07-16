@@ -10,5 +10,7 @@
  <li><a href="https://vkedah661.github.io/discord">Discord Phoenix games</a></li>
   <br>
  <li><a href="https://vkedah661.github.io/4svteam.html">4SV TEAM</a></li>
+ <br>
+ <li><a href="vkedah661.github.io/Discord1.html">Discord phoenix</a></li>
 </ul> 
  <link rel="shortcut icon" href="vkedah661.github.io/img/Новая папка/favicon-16x16.png">
