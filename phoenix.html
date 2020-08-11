@@ -20,46 +20,78 @@ background: url(https://playntrade-a.akamaihd.net/762/u76282/001/6cb8df6a.jpg);
     p{font-size: 25px
      color: black;
     }
-    div{
-position: absolute;
-bottom: 1em;
-right: 1em;
-text-align: right;
-}
+  
     span {font-size: 35px;}
-          #footer {
-    position: fixed; 
-    left: 0; bottom: 0; 
-    padding: 10px; 
-    background: #B22222; 
-    color: #fff;
-    width: 100%;
-    text-align:  center;
-   }
-         #navbar {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        width: 100px;
-      }
-      #navbar li {
-        border-left: 10px solid #FF4500	;
-        border-bottom: 1px solid #FF4500	;
-      }
-      #navbar a {
-        background-color: #FF8C00;
-        color: #fff;
-        padding: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        border-left: 5px solid #FFA500;
-        display: block;
-      }
-      #navbar a:hover {
-        background-color: #FF4500	;
-        border-left: 5px solid #FF4500	;
-      }
+      ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0;
+  margin-top:25px; 
+  background:#ff0000; 
+  height: 50px; 
+}
+a {
+  text-decoration: none; 
+  background:#ff0000; 
+  color:#fff; 
+  padding:0px 15px; 
+  font-family: arial; 
+  line-height:50px; 
+  display: block; 
+  border-right: 1px solid #677B27; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:#D43737;
+}
+li {
+  float:left;
+  position:relative; 
+}
+     
+    
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    
+    li:hover > ul {
+        display:block; 
+        width:250px;      
+    }
+   li:hover > ul > li {
+        float:none; 
+    }
 </style>
+ <div style="width:900px; margin:0 auto;">
+<ul>
+    <li><a href="#">Главная</a></li>
+    <li><a href="#">Вконтакте</a>
+        <ul>
+            <li><a href="#">4SV TEAM Группа </a></li>
+            <li><a href="#">Phoenix Группа </a></li>
+        </ul>
+    </li>  
+    <li><a href="#">Кланы</a>
+<ul>
+            <li><a href="#">Pubg mobile  </a></li>
+            <li><a href="#">Pubg mobile lite  </a></li>
+            <li><a href="#">CS:GO  </a></li>
+</ul>
+    </li>
+    <li><a href="#">Дискорд сервера</a>
+<ul>
+            <li><a href="https://vkedah661.github.io/4svdis.html">4SV TEAM Дискорд </a></li>
+            <li><a href="https://discord.com/invite/aurX9ww">Phoenix games Дискорд  </a></li>
+            <li><a href="https://discord.com/invite/9AAspsT">Phoenix Дискорд  </a></li>
+</li>
+</ul>
+</ul>
+</div>
   <script type="text/javascript">
 i=0;
 dt=new Array("#ff0000", "#00ff00", "#0000ff", "#ffffff", "#E3FF00","#6FFF00", "#00FF5A", "#00FFD4", "#0075FF", "#1300FF", "#D300FF", "#FF00A4", "#FF0049", "#FF0600" );
@@ -83,12 +115,5 @@ cl();
   </p>
  <br>
 <body>
-   <ul id="navbar">
-      <li><a href="vkedah661.github.io">Главная</a></li>
-      <li><a href="https://vkedah661.github.io/home.html">PUBG MOBILE LITE</a></li>
-      <li><a href="https://vkedah661.github.io/head.html">PUBG MOBILE</a></li>
-    </ul>
- </body>
-   <div id="footer">Сайт сделан для PC версии
- </div>   
+ </body>  
 </html>
