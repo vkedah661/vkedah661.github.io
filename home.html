@@ -17,45 +17,52 @@ background: url(https://cdn.gamestatic.net/files/editor_uploads/Н/max.jpg);
     }
     p{font-size: 20px
     }
-    div{
-position: absolute;
-bottom: 1em;
-right: 1em;
-text-align: right;
-}
+   
     span {font-size: 35px;}
-  #footer {
-    position: fixed; 
-    left: 0; bottom: 0; 
-    padding: 10px; 
-    background: #FF8C00; 
-    color: #fff;
-    width: 100%;
-    text-align:  center;
-   }
-            #navbar {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        width: 100px;
-      }
-      #navbar li {
-        border-left: 10px solid #FF4500;
-        border-bottom: 1px solid #FF4500;
-      }
-      #navbar a {
-        background-color: #FF8C00;
-        color: #fff;
-        padding: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        border-left: 5px solid #FFA500;
-        display: block;
-      }
-      #navbar a:hover {
-        background-color: #FF4500;
-        border-left: 5px solid #FF4500;
-      }
+     ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0;
+  margin-top:25px; 
+  background:#ff0000; 
+  height: 50px; 
+}
+a {
+  text-decoration: none; 
+  background:#ff0000; 
+  color:#fff; 
+  padding:0px 15px; 
+  font-family: arial; 
+  line-height:50px; 
+  display: block; 
+  border-right: 1px solid #677B27; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:#D43737;
+}
+li {
+  float:left;
+  position:relative; 
+}
+     
+    
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    
+    li:hover > ul {
+        display:block; 
+        width:250px;      
+    }
+   li:hover > ul > li {
+        float:none; 
+    }
  </style>
  <script type="text/javascript">
 i=0;
@@ -79,15 +86,8 @@ cl();
 Зам. лидера: vkedah337
 <br>
 Всегда рады вам :)
-  <body>
-     <ul id="navbar">
-      <li><a href="vkedah661.github.io">Главная</a></li>
-      <li><a href="https://vkedah661.github.io/head.html">PUBG MOBILE </a></li>
-      <li><a href="https://vkedah661.github.io/phoenix.html">Сайт клана в CS:GO </a></li>
-    </ul>
+  <body>  
    </body>
 </p>
  <br>
-  <div id="footer">Сайт сделан для PC версии
- </div>   
 </html>
