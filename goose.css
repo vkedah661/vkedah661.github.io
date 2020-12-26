@@ -1,11 +1,17 @@
 body{
 background: url(https://github.com/vkedah661/vkedah661.github.io/blob/master/img/U62ybAJbehQ.jpg?raw=true) no-repeat;
- background-size: 100%;
  margin-top : 0px;
- background-size: 100%;
+ text-align: center;
+  -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+     -moz-background-size: 100% auto; 
+    -webkit-background-size: 100% auto;
+    -o-background-size: 100% auto; 
 }
 div{
 font-size:25px;
-text-align: center;
+
 
 }
